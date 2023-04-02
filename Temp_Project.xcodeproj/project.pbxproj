@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB9E780D29D93AA600E9E205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E780C29D93AA600E9E205 /* AppDelegate.swift */; };
+		AB9E780F29D93AA600E9E205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E780E29D93AA600E9E205 /* SceneDelegate.swift */; };
+		AB9E781129D93AA600E9E205 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E781029D93AA600E9E205 /* ViewController.swift */; };
+		AB9E781429D93AA600E9E205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9E781229D93AA600E9E205 /* Main.storyboard */; };
+		AB9E781629D93AAB00E9E205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9E781529D93AAB00E9E205 /* Assets.xcassets */; };
+		AB9E781929D93AAB00E9E205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9E781729D93AAB00E9E205 /* LaunchScreen.storyboard */; };
+		AB9E7AA329D93CD900E9E205 /* QUHomeDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A4C29D93CD800E9E205 /* QUHomeDiscoverController.swift */; };
+		AB9E7AA429D93CD900E9E205 /* QUHomeAssertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5029D93CD800E9E205 /* QUHomeAssertController.swift */; };
+		AB9E7AA529D93CD900E9E205 /* QUHomeFollowListDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5329D93CD800E9E205 /* QUHomeFollowListDataManager.swift */; };
+		AB9E7AA629D93CD900E9E205 /* QUHomeFollowListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5529D93CD800E9E205 /* QUHomeFollowListController.swift */; };
+		AB9E7AA729D93CD900E9E205 /* QUHomeFollowListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5729D93CD800E9E205 /* QUHomeFollowListCellModel.swift */; };
+		AB9E7AA829D93CD900E9E205 /* QUHomeFollowListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5829D93CD800E9E205 /* QUHomeFollowListModel.swift */; };
+		AB9E7AA929D93CD900E9E205 /* QUHomeFollowListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5A29D93CD800E9E205 /* QUHomeFollowListCell.swift */; };
+		AB9E7AAA29D93CD900E9E205 /* QUHomeFollowNoNetWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5B29D93CD800E9E205 /* QUHomeFollowNoNetWorkView.swift */; };
+		AB9E7AAB29D93CD900E9E205 /* QUHomeFollowEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5C29D93CD800E9E205 /* QUHomeFollowEmptyView.swift */; };
+		AB9E7AAC29D93CD900E9E205 /* QUHomeFollowFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A5D29D93CD800E9E205 /* QUHomeFollowFooterCell.swift */; };
+		AB9E7AAD29D93CD900E9E205 /* QUHomeSpecialStockOrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6029D93CD800E9E205 /* QUHomeSpecialStockOrderController.swift */; };
+		AB9E7AAE29D93CD900E9E205 /* QUHomeHotStockOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6229D93CD800E9E205 /* QUHomeHotStockOrderModel.swift */; };
+		AB9E7AAF29D93CD900E9E205 /* QUHomeHotStockOrderCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6329D93CD800E9E205 /* QUHomeHotStockOrderCellModel.swift */; };
+		AB9E7AB029D93CD900E9E205 /* QUPageScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6429D93CD800E9E205 /* QUPageScrollFlowLayout.swift */; };
+		AB9E7AB129D93CD900E9E205 /* QUHomeSpecialStockOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6629D93CD800E9E205 /* QUHomeSpecialStockOrderCell.swift */; };
+		AB9E7AB229D93CD900E9E205 /* QUHomeChoicenessChangeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6929D93CD800E9E205 /* QUHomeChoicenessChangeController.swift */; };
+		AB9E7AB329D93CD900E9E205 /* QUHomeHotDealController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6A29D93CD800E9E205 /* QUHomeHotDealController.swift */; };
+		AB9E7AB429D93CD900E9E205 /* QUHomeOpportunityTrackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6B29D93CD800E9E205 /* QUHomeOpportunityTrackController.swift */; };
+		AB9E7AB529D93CD900E9E205 /* QUHomeHotDealCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6D29D93CD800E9E205 /* QUHomeHotDealCellModel.swift */; };
+		AB9E7AB629D93CD900E9E205 /* QUHomeHotDealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6E29D93CD800E9E205 /* QUHomeHotDealModel.swift */; };
+		AB9E7AB729D93CD900E9E205 /* QUHomeChoicenceChangeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A6F29D93CD800E9E205 /* QUHomeChoicenceChangeCellModel.swift */; };
+		AB9E7AB829D93CD900E9E205 /* QUHomeChoicenceChangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7029D93CD800E9E205 /* QUHomeChoicenceChangeModel.swift */; };
+		AB9E7AB929D93CD900E9E205 /* QUHomeHotDealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7229D93CD800E9E205 /* QUHomeHotDealCell.swift */; };
+		AB9E7ABA29D93CD900E9E205 /* QUHomeChoicenceChangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7329D93CD800E9E205 /* QUHomeChoicenceChangeCell.swift */; };
+		AB9E7ABB29D93CD900E9E205 /* QUNewsFlashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7629D93CD800E9E205 /* QUNewsFlashController.swift */; };
+		AB9E7ABC29D93CD900E9E205 /* QUHomeHotNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7729D93CD800E9E205 /* QUHomeHotNewsController.swift */; };
+		AB9E7ABD29D93CD900E9E205 /* QUNewsHotTopicControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7829D93CD800E9E205 /* QUNewsHotTopicControlller.swift */; };
+		AB9E7ABE29D93CD900E9E205 /* QUNewsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7A29D93CD800E9E205 /* QUNewsListModel.swift */; };
+		AB9E7ABF29D93CD900E9E205 /* QUNewsHotTopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7B29D93CD800E9E205 /* QUNewsHotTopicModel.swift */; };
+		AB9E7AC029D93CD900E9E205 /* QUFlashMarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7E29D93CD800E9E205 /* QUFlashMarqueeView.swift */; };
+		AB9E7AC129D93CD900E9E205 /* QUFlashMarqueeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A7F29D93CD800E9E205 /* QUFlashMarqueeItem.swift */; };
+		AB9E7AC229D93CD900E9E205 /* QUNewsHotTopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8029D93CD800E9E205 /* QUNewsHotTopicCell.swift */; };
+		AB9E7AC329D93CD900E9E205 /* QUNewsHotTopicListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8129D93CD800E9E205 /* QUNewsHotTopicListCell.swift */; };
+		AB9E7AC429D93CD900E9E205 /* QUHomeBannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8429D93CD800E9E205 /* QUHomeBannerController.swift */; };
+		AB9E7AC529D93CD900E9E205 /* QUHomeBannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8629D93CD800E9E205 /* QUHomeBannerModel.swift */; };
+		AB9E7AC629D93CD900E9E205 /* QUBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8829D93CD800E9E205 /* QUBannerView.swift */; };
+		AB9E7AC729D93CD900E9E205 /* QUHomeCompanyDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8B29D93CD800E9E205 /* QUHomeCompanyDataManager.swift */; };
+		AB9E7AC829D93CD900E9E205 /* QUHomePreferredCompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8D29D93CD800E9E205 /* QUHomePreferredCompanyController.swift */; };
+		AB9E7AC929D93CD900E9E205 /* QUHomePreferredCompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A8F29D93CD800E9E205 /* QUHomePreferredCompanyModel.swift */; };
+		AB9E7ACA29D93CD900E9E205 /* QUHomePreferredCompanyCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9029D93CD800E9E205 /* QUHomePreferredCompanyCellModel.swift */; };
+		AB9E7ACB29D93CD900E9E205 /* QUHomeMarketIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9229D93CD800E9E205 /* QUHomeMarketIndexView.swift */; };
+		AB9E7ACC29D93CD900E9E205 /* QUHomeMarketIndexItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9329D93CD800E9E205 /* QUHomeMarketIndexItemView.swift */; };
+		AB9E7ACD29D93CD900E9E205 /* QUHomePreferredCompanyLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9429D93CD800E9E205 /* QUHomePreferredCompanyLogo.swift */; };
+		AB9E7ACE29D93CD900E9E205 /* QUHomePreferredCompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9529D93CD800E9E205 /* QUHomePreferredCompanyCell.swift */; };
+		AB9E7ACF29D93CD900E9E205 /* QUHomeDiscoverComponentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9729D93CD800E9E205 /* QUHomeDiscoverComponentProvider.swift */; };
+		AB9E7AD029D93CD900E9E205 /* QPHomeRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9929D93CD800E9E205 /* QPHomeRequestManager.swift */; };
+		AB9E7AD129D93CD900E9E205 /* QUHomeComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9B29D93CD800E9E205 /* QUHomeComponentModel.swift */; };
+		AB9E7AD229D93CD900E9E205 /* QPHomePageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9C29D93CD800E9E205 /* QPHomePageManager.swift */; };
+		AB9E7AD329D93CD900E9E205 /* QUHomePageIndexModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9D29D93CD800E9E205 /* QUHomePageIndexModel.swift */; };
+		AB9E7AD429D93CD900E9E205 /* QUHomeComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7A9E29D93CD800E9E205 /* QUHomeComponentProtocol.swift */; };
+		AB9E7AD529D93CD900E9E205 /* QUHomeUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7AA029D93CD800E9E205 /* QUHomeUserInfoView.swift */; };
+		AB9E7AD629D93CD900E9E205 /* QUDiscoverLevelTipBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E7AA129D93CD800E9E205 /* QUDiscoverLevelTipBottomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB9E780929D93AA600E9E205 /* Temp_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temp_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9E780C29D93AA600E9E205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB9E780E29D93AA600E9E205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB9E781029D93AA600E9E205 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB9E781329D93AA600E9E205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB9E781529D93AAB00E9E205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB9E781829D93AAB00E9E205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB9E781A29D93AAB00E9E205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9E7A4C29D93CD800E9E205 /* QUHomeDiscoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeDiscoverController.swift; sourceTree = "<group>"; };
+		AB9E7A5029D93CD800E9E205 /* QUHomeAssertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeAssertController.swift; sourceTree = "<group>"; };
+		AB9E7A5329D93CD800E9E205 /* QUHomeFollowListDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowListDataManager.swift; sourceTree = "<group>"; };
+		AB9E7A5529D93CD800E9E205 /* QUHomeFollowListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowListController.swift; sourceTree = "<group>"; };
+		AB9E7A5729D93CD800E9E205 /* QUHomeFollowListCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowListCellModel.swift; sourceTree = "<group>"; };
+		AB9E7A5829D93CD800E9E205 /* QUHomeFollowListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowListModel.swift; sourceTree = "<group>"; };
+		AB9E7A5A29D93CD800E9E205 /* QUHomeFollowListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowListCell.swift; sourceTree = "<group>"; };
+		AB9E7A5B29D93CD800E9E205 /* QUHomeFollowNoNetWorkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowNoNetWorkView.swift; sourceTree = "<group>"; };
+		AB9E7A5C29D93CD800E9E205 /* QUHomeFollowEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowEmptyView.swift; sourceTree = "<group>"; };
+		AB9E7A5D29D93CD800E9E205 /* QUHomeFollowFooterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeFollowFooterCell.swift; sourceTree = "<group>"; };
+		AB9E7A6029D93CD800E9E205 /* QUHomeSpecialStockOrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeSpecialStockOrderController.swift; sourceTree = "<group>"; };
+		AB9E7A6229D93CD800E9E205 /* QUHomeHotStockOrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeHotStockOrderModel.swift; sourceTree = "<group>"; };
+		AB9E7A6329D93CD800E9E205 /* QUHomeHotStockOrderCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeHotStockOrderCellModel.swift; sourceTree = "<group>"; };
+		AB9E7A6429D93CD800E9E205 /* QUPageScrollFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUPageScrollFlowLayout.swift; sourceTree = "<group>"; };
+		AB9E7A6629D93CD800E9E205 /* QUHomeSpecialStockOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeSpecialStockOrderCell.swift; sourceTree = "<group>"; };
+		AB9E7A6929D93CD800E9E205 /* QUHomeChoicenessChangeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeChoicenessChangeController.swift; sourceTree = "<group>"; };
+		AB9E7A6A29D93CD800E9E205 /* QUHomeHotDealController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeHotDealController.swift; sourceTree = "<group>"; };
+		AB9E7A6B29D93CD800E9E205 /* QUHomeOpportunityTrackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeOpportunityTrackController.swift; sourceTree = "<group>"; };
+		AB9E7A6D29D93CD800E9E205 /* QUHomeHotDealCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeHotDealCellModel.swift; sourceTree = "<group>"; };
+		AB9E7A6E29D93CD800E9E205 /* QUHomeHotDealModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeHotDealModel.swift; sourceTree = "<group>"; };
+		AB9E7A6F29D93CD800E9E205 /* QUHomeChoicenceChangeCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeChoicenceChangeCellModel.swift; sourceTree = "<group>"; };
+		AB9E7A7029D93CD800E9E205 /* QUHomeChoicenceChangeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeChoicenceChangeModel.swift; sourceTree = "<group>"; };
+		AB9E7A7229D93CD800E9E205 /* QUHomeHotDealCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeHotDealCell.swift; sourceTree = "<group>"; };
+		AB9E7A7329D93CD800E9E205 /* QUHomeChoicenceChangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeChoicenceChangeCell.swift; sourceTree = "<group>"; };
+		AB9E7A7629D93CD800E9E205 /* QUNewsFlashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUNewsFlashController.swift; sourceTree = "<group>"; };
+		AB9E7A7729D93CD800E9E205 /* QUHomeHotNewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeHotNewsController.swift; sourceTree = "<group>"; };
+		AB9E7A7829D93CD800E9E205 /* QUNewsHotTopicControlller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUNewsHotTopicControlller.swift; sourceTree = "<group>"; };
+		AB9E7A7A29D93CD800E9E205 /* QUNewsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUNewsListModel.swift; sourceTree = "<group>"; };
+		AB9E7A7B29D93CD800E9E205 /* QUNewsHotTopicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUNewsHotTopicModel.swift; sourceTree = "<group>"; };
+		AB9E7A7E29D93CD800E9E205 /* QUFlashMarqueeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUFlashMarqueeView.swift; sourceTree = "<group>"; };
+		AB9E7A7F29D93CD800E9E205 /* QUFlashMarqueeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUFlashMarqueeItem.swift; sourceTree = "<group>"; };
+		AB9E7A8029D93CD800E9E205 /* QUNewsHotTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUNewsHotTopicCell.swift; sourceTree = "<group>"; };
+		AB9E7A8129D93CD800E9E205 /* QUNewsHotTopicListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUNewsHotTopicListCell.swift; sourceTree = "<group>"; };
+		AB9E7A8429D93CD800E9E205 /* QUHomeBannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeBannerController.swift; sourceTree = "<group>"; };
+		AB9E7A8629D93CD800E9E205 /* QUHomeBannerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeBannerModel.swift; sourceTree = "<group>"; };
+		AB9E7A8829D93CD800E9E205 /* QUBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUBannerView.swift; sourceTree = "<group>"; };
+		AB9E7A8B29D93CD800E9E205 /* QUHomeCompanyDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeCompanyDataManager.swift; sourceTree = "<group>"; };
+		AB9E7A8D29D93CD800E9E205 /* QUHomePreferredCompanyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomePreferredCompanyController.swift; sourceTree = "<group>"; };
+		AB9E7A8F29D93CD800E9E205 /* QUHomePreferredCompanyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomePreferredCompanyModel.swift; sourceTree = "<group>"; };
+		AB9E7A9029D93CD800E9E205 /* QUHomePreferredCompanyCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomePreferredCompanyCellModel.swift; sourceTree = "<group>"; };
+		AB9E7A9229D93CD800E9E205 /* QUHomeMarketIndexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeMarketIndexView.swift; sourceTree = "<group>"; };
+		AB9E7A9329D93CD800E9E205 /* QUHomeMarketIndexItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeMarketIndexItemView.swift; sourceTree = "<group>"; };
+		AB9E7A9429D93CD800E9E205 /* QUHomePreferredCompanyLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomePreferredCompanyLogo.swift; sourceTree = "<group>"; };
+		AB9E7A9529D93CD800E9E205 /* QUHomePreferredCompanyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomePreferredCompanyCell.swift; sourceTree = "<group>"; };
+		AB9E7A9729D93CD800E9E205 /* QUHomeDiscoverComponentProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeDiscoverComponentProvider.swift; sourceTree = "<group>"; };
+		AB9E7A9929D93CD800E9E205 /* QPHomeRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPHomeRequestManager.swift; sourceTree = "<group>"; };
+		AB9E7A9B29D93CD800E9E205 /* QUHomeComponentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeComponentModel.swift; sourceTree = "<group>"; };
+		AB9E7A9C29D93CD800E9E205 /* QPHomePageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QPHomePageManager.swift; sourceTree = "<group>"; };
+		AB9E7A9D29D93CD800E9E205 /* QUHomePageIndexModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomePageIndexModel.swift; sourceTree = "<group>"; };
+		AB9E7A9E29D93CD800E9E205 /* QUHomeComponentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeComponentProtocol.swift; sourceTree = "<group>"; };
+		AB9E7AA029D93CD800E9E205 /* QUHomeUserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUHomeUserInfoView.swift; sourceTree = "<group>"; };
+		AB9E7AA129D93CD800E9E205 /* QUDiscoverLevelTipBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QUDiscoverLevelTipBottomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB9E780629D93AA600E9E205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB9E780029D93AA600E9E205 = {
+			isa = PBXGroup;
+			children = (
+				AB9E780B29D93AA600E9E205 /* Temp_Project */,
+				AB9E780A29D93AA600E9E205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9E780A29D93AA600E9E205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E780929D93AA600E9E205 /* Temp_Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9E780B29D93AA600E9E205 /* Temp_Project */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A4A29D93CD800E9E205 /* Classes */,
+				AB9E780C29D93AA600E9E205 /* AppDelegate.swift */,
+				AB9E780E29D93AA600E9E205 /* SceneDelegate.swift */,
+				AB9E781029D93AA600E9E205 /* ViewController.swift */,
+				AB9E781229D93AA600E9E205 /* Main.storyboard */,
+				AB9E781529D93AAB00E9E205 /* Assets.xcassets */,
+				AB9E781729D93AAB00E9E205 /* LaunchScreen.storyboard */,
+				AB9E781A29D93AAB00E9E205 /* Info.plist */,
+			);
+			path = Temp_Project;
+			sourceTree = "<group>";
+		};
+		AB9E7A4A29D93CD800E9E205 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A4B29D93CD800E9E205 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AB9E7A4B29D93CD800E9E205 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A4C29D93CD800E9E205 /* QUHomeDiscoverController.swift */,
+				AB9E7A4D29D93CD800E9E205 /* Module */,
+				AB9E7A9629D93CD800E9E205 /* Provider */,
+				AB9E7A9829D93CD800E9E205 /* RequestManager */,
+				AB9E7A9A29D93CD800E9E205 /* Model */,
+				AB9E7A9F29D93CD800E9E205 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AB9E7A4D29D93CD800E9E205 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A4E29D93CD800E9E205 /* AssertModule */,
+				AB9E7A5129D93CD800E9E205 /* MyFollowModule */,
+				AB9E7A5E29D93CD800E9E205 /* StockOrderModule */,
+				AB9E7A6729D93CD800E9E205 /* OpportunityModule */,
+				AB9E7A7429D93CD800E9E205 /* HotNewsModule */,
+				AB9E7A8229D93CD800E9E205 /* BannerModule */,
+				AB9E7A8929D93CD800E9E205 /* CompanyModule */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		AB9E7A4E29D93CD800E9E205 /* AssertModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A4F29D93CD800E9E205 /* Controller */,
+			);
+			path = AssertModule;
+			sourceTree = "<group>";
+		};
+		AB9E7A4F29D93CD800E9E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A5029D93CD800E9E205 /* QUHomeAssertController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9E7A5129D93CD800E9E205 /* MyFollowModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A5229D93CD800E9E205 /* DataManager */,
+				AB9E7A5429D93CD800E9E205 /* Controller */,
+				AB9E7A5629D93CD800E9E205 /* Model */,
+				AB9E7A5929D93CD800E9E205 /* View */,
+			);
+			path = MyFollowModule;
+			sourceTree = "<group>";
+		};
+		AB9E7A5229D93CD800E9E205 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A5329D93CD800E9E205 /* QUHomeFollowListDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		AB9E7A5429D93CD800E9E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A5529D93CD800E9E205 /* QUHomeFollowListController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9E7A5629D93CD800E9E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A5729D93CD800E9E205 /* QUHomeFollowListCellModel.swift */,
+				AB9E7A5829D93CD800E9E205 /* QUHomeFollowListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9E7A5929D93CD800E9E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A5A29D93CD800E9E205 /* QUHomeFollowListCell.swift */,
+				AB9E7A5B29D93CD800E9E205 /* QUHomeFollowNoNetWorkView.swift */,
+				AB9E7A5C29D93CD800E9E205 /* QUHomeFollowEmptyView.swift */,
+				AB9E7A5D29D93CD800E9E205 /* QUHomeFollowFooterCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9E7A5E29D93CD800E9E205 /* StockOrderModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A5F29D93CD800E9E205 /* Controller */,
+				AB9E7A6129D93CD800E9E205 /* Model */,
+				AB9E7A6529D93CD800E9E205 /* View */,
+			);
+			path = StockOrderModule;
+			sourceTree = "<group>";
+		};
+		AB9E7A5F29D93CD800E9E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A6029D93CD800E9E205 /* QUHomeSpecialStockOrderController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9E7A6129D93CD800E9E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A6229D93CD800E9E205 /* QUHomeHotStockOrderModel.swift */,
+				AB9E7A6329D93CD800E9E205 /* QUHomeHotStockOrderCellModel.swift */,
+				AB9E7A6429D93CD800E9E205 /* QUPageScrollFlowLayout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9E7A6529D93CD800E9E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A6629D93CD800E9E205 /* QUHomeSpecialStockOrderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9E7A6729D93CD800E9E205 /* OpportunityModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A6829D93CD800E9E205 /* Controller */,
+				AB9E7A6C29D93CD800E9E205 /* Model */,
+				AB9E7A7129D93CD800E9E205 /* View */,
+			);
+			path = OpportunityModule;
+			sourceTree = "<group>";
+		};
+		AB9E7A6829D93CD800E9E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A6929D93CD800E9E205 /* QUHomeChoicenessChangeController.swift */,
+				AB9E7A6A29D93CD800E9E205 /* QUHomeHotDealController.swift */,
+				AB9E7A6B29D93CD800E9E205 /* QUHomeOpportunityTrackController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9E7A6C29D93CD800E9E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A6D29D93CD800E9E205 /* QUHomeHotDealCellModel.swift */,
+				AB9E7A6E29D93CD800E9E205 /* QUHomeHotDealModel.swift */,
+				AB9E7A6F29D93CD800E9E205 /* QUHomeChoicenceChangeCellModel.swift */,
+				AB9E7A7029D93CD800E9E205 /* QUHomeChoicenceChangeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9E7A7129D93CD800E9E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A7229D93CD800E9E205 /* QUHomeHotDealCell.swift */,
+				AB9E7A7329D93CD800E9E205 /* QUHomeChoicenceChangeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9E7A7429D93CD800E9E205 /* HotNewsModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A7529D93CD800E9E205 /* Controller */,
+				AB9E7A7929D93CD800E9E205 /* Model */,
+				AB9E7A7C29D93CD800E9E205 /* View */,
+			);
+			path = HotNewsModule;
+			sourceTree = "<group>";
+		};
+		AB9E7A7529D93CD800E9E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A7629D93CD800E9E205 /* QUNewsFlashController.swift */,
+				AB9E7A7729D93CD800E9E205 /* QUHomeHotNewsController.swift */,
+				AB9E7A7829D93CD800E9E205 /* QUNewsHotTopicControlller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9E7A7929D93CD800E9E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A7A29D93CD800E9E205 /* QUNewsListModel.swift */,
+				AB9E7A7B29D93CD800E9E205 /* QUNewsHotTopicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9E7A7C29D93CD800E9E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A7D29D93CD800E9E205 /* FlashMarqueeView */,
+				AB9E7A8029D93CD800E9E205 /* QUNewsHotTopicCell.swift */,
+				AB9E7A8129D93CD800E9E205 /* QUNewsHotTopicListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9E7A7D29D93CD800E9E205 /* FlashMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A7E29D93CD800E9E205 /* QUFlashMarqueeView.swift */,
+				AB9E7A7F29D93CD800E9E205 /* QUFlashMarqueeItem.swift */,
+			);
+			path = FlashMarqueeView;
+			sourceTree = "<group>";
+		};
+		AB9E7A8229D93CD800E9E205 /* BannerModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8329D93CD800E9E205 /* Controller */,
+				AB9E7A8529D93CD800E9E205 /* Model */,
+				AB9E7A8729D93CD800E9E205 /* View */,
+			);
+			path = BannerModule;
+			sourceTree = "<group>";
+		};
+		AB9E7A8329D93CD800E9E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8429D93CD800E9E205 /* QUHomeBannerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9E7A8529D93CD800E9E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8629D93CD800E9E205 /* QUHomeBannerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9E7A8729D93CD800E9E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8829D93CD800E9E205 /* QUBannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9E7A8929D93CD800E9E205 /* CompanyModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8A29D93CD800E9E205 /* DataManager */,
+				AB9E7A8C29D93CD800E9E205 /* Controller */,
+				AB9E7A8E29D93CD800E9E205 /* Model */,
+				AB9E7A9129D93CD800E9E205 /* View */,
+			);
+			path = CompanyModule;
+			sourceTree = "<group>";
+		};
+		AB9E7A8A29D93CD800E9E205 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8B29D93CD800E9E205 /* QUHomeCompanyDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		AB9E7A8C29D93CD800E9E205 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8D29D93CD800E9E205 /* QUHomePreferredCompanyController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB9E7A8E29D93CD800E9E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A8F29D93CD800E9E205 /* QUHomePreferredCompanyModel.swift */,
+				AB9E7A9029D93CD800E9E205 /* QUHomePreferredCompanyCellModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9E7A9129D93CD800E9E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A9229D93CD800E9E205 /* QUHomeMarketIndexView.swift */,
+				AB9E7A9329D93CD800E9E205 /* QUHomeMarketIndexItemView.swift */,
+				AB9E7A9429D93CD800E9E205 /* QUHomePreferredCompanyLogo.swift */,
+				AB9E7A9529D93CD800E9E205 /* QUHomePreferredCompanyCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB9E7A9629D93CD800E9E205 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A9729D93CD800E9E205 /* QUHomeDiscoverComponentProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		AB9E7A9829D93CD800E9E205 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A9929D93CD800E9E205 /* QPHomeRequestManager.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		AB9E7A9A29D93CD800E9E205 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7A9B29D93CD800E9E205 /* QUHomeComponentModel.swift */,
+				AB9E7A9C29D93CD800E9E205 /* QPHomePageManager.swift */,
+				AB9E7A9D29D93CD800E9E205 /* QUHomePageIndexModel.swift */,
+				AB9E7A9E29D93CD800E9E205 /* QUHomeComponentProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB9E7A9F29D93CD800E9E205 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB9E7AA029D93CD800E9E205 /* QUHomeUserInfoView.swift */,
+				AB9E7AA129D93CD800E9E205 /* QUDiscoverLevelTipBottomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB9E780829D93AA600E9E205 /* Temp_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9E781D29D93AAB00E9E205 /* Build configuration list for PBXNativeTarget "Temp_Project" */;
+			buildPhases = (
+				AB9E780529D93AA600E9E205 /* Sources */,
+				AB9E780629D93AA600E9E205 /* Frameworks */,
+				AB9E780729D93AA600E9E205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Temp_Project;
+			productName = Temp_Project;
+			productReference = AB9E780929D93AA600E9E205 /* Temp_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9E780129D93AA600E9E205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AB9E780829D93AA600E9E205 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = AB9E780429D93AA600E9E205 /* Build configuration list for PBXProject "Temp_Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB9E780029D93AA600E9E205;
+			productRefGroup = AB9E780A29D93AA600E9E205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB9E780829D93AA600E9E205 /* Temp_Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB9E780729D93AA600E9E205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9E781929D93AAB00E9E205 /* LaunchScreen.storyboard in Resources */,
+				AB9E781629D93AAB00E9E205 /* Assets.xcassets in Resources */,
+				AB9E781429D93AA600E9E205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB9E780529D93AA600E9E205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9E7AD029D93CD900E9E205 /* QPHomeRequestManager.swift in Sources */,
+				AB9E7AC429D93CD900E9E205 /* QUHomeBannerController.swift in Sources */,
+				AB9E7AD329D93CD900E9E205 /* QUHomePageIndexModel.swift in Sources */,
+				AB9E7AAD29D93CD900E9E205 /* QUHomeSpecialStockOrderController.swift in Sources */,
+				AB9E7AAC29D93CD900E9E205 /* QUHomeFollowFooterCell.swift in Sources */,
+				AB9E7AC129D93CD900E9E205 /* QUFlashMarqueeItem.swift in Sources */,
+				AB9E7AA629D93CD900E9E205 /* QUHomeFollowListController.swift in Sources */,
+				AB9E7AA729D93CD900E9E205 /* QUHomeFollowListCellModel.swift in Sources */,
+				AB9E7AAA29D93CD900E9E205 /* QUHomeFollowNoNetWorkView.swift in Sources */,
+				AB9E7ABD29D93CD900E9E205 /* QUNewsHotTopicControlller.swift in Sources */,
+				AB9E7AA829D93CD900E9E205 /* QUHomeFollowListModel.swift in Sources */,
+				AB9E7AC329D93CD900E9E205 /* QUNewsHotTopicListCell.swift in Sources */,
+				AB9E7AB929D93CD900E9E205 /* QUHomeHotDealCell.swift in Sources */,
+				AB9E7AB729D93CD900E9E205 /* QUHomeChoicenceChangeCellModel.swift in Sources */,
+				AB9E7ACB29D93CD900E9E205 /* QUHomeMarketIndexView.swift in Sources */,
+				AB9E7AAE29D93CD900E9E205 /* QUHomeHotStockOrderModel.swift in Sources */,
+				AB9E7ACA29D93CD900E9E205 /* QUHomePreferredCompanyCellModel.swift in Sources */,
+				AB9E7ABC29D93CD900E9E205 /* QUHomeHotNewsController.swift in Sources */,
+				AB9E7AD429D93CD900E9E205 /* QUHomeComponentProtocol.swift in Sources */,
+				AB9E7AD629D93CD900E9E205 /* QUDiscoverLevelTipBottomView.swift in Sources */,
+				AB9E7AB029D93CD900E9E205 /* QUPageScrollFlowLayout.swift in Sources */,
+				AB9E7AB329D93CD900E9E205 /* QUHomeHotDealController.swift in Sources */,
+				AB9E7ABB29D93CD900E9E205 /* QUNewsFlashController.swift in Sources */,
+				AB9E7AC229D93CD900E9E205 /* QUNewsHotTopicCell.swift in Sources */,
+				AB9E7AC929D93CD900E9E205 /* QUHomePreferredCompanyModel.swift in Sources */,
+				AB9E7AB129D93CD900E9E205 /* QUHomeSpecialStockOrderCell.swift in Sources */,
+				AB9E7AB629D93CD900E9E205 /* QUHomeHotDealModel.swift in Sources */,
+				AB9E781129D93AA600E9E205 /* ViewController.swift in Sources */,
+				AB9E7AB429D93CD900E9E205 /* QUHomeOpportunityTrackController.swift in Sources */,
+				AB9E7ABF29D93CD900E9E205 /* QUNewsHotTopicModel.swift in Sources */,
+				AB9E7AAF29D93CD900E9E205 /* QUHomeHotStockOrderCellModel.swift in Sources */,
+				AB9E780D29D93AA600E9E205 /* AppDelegate.swift in Sources */,
+				AB9E7AD229D93CD900E9E205 /* QPHomePageManager.swift in Sources */,
+				AB9E7AA429D93CD900E9E205 /* QUHomeAssertController.swift in Sources */,
+				AB9E7ACC29D93CD900E9E205 /* QUHomeMarketIndexItemView.swift in Sources */,
+				AB9E7ACE29D93CD900E9E205 /* QUHomePreferredCompanyCell.swift in Sources */,
+				AB9E7AA529D93CD900E9E205 /* QUHomeFollowListDataManager.swift in Sources */,
+				AB9E780F29D93AA600E9E205 /* SceneDelegate.swift in Sources */,
+				AB9E7AD129D93CD900E9E205 /* QUHomeComponentModel.swift in Sources */,
+				AB9E7ABA29D93CD900E9E205 /* QUHomeChoicenceChangeCell.swift in Sources */,
+				AB9E7AB829D93CD900E9E205 /* QUHomeChoicenceChangeModel.swift in Sources */,
+				AB9E7AD529D93CD900E9E205 /* QUHomeUserInfoView.swift in Sources */,
+				AB9E7AC829D93CD900E9E205 /* QUHomePreferredCompanyController.swift in Sources */,
+				AB9E7AC029D93CD900E9E205 /* QUFlashMarqueeView.swift in Sources */,
+				AB9E7AA329D93CD900E9E205 /* QUHomeDiscoverController.swift in Sources */,
+				AB9E7AC629D93CD900E9E205 /* QUBannerView.swift in Sources */,
+				AB9E7ABE29D93CD900E9E205 /* QUNewsListModel.swift in Sources */,
+				AB9E7AAB29D93CD900E9E205 /* QUHomeFollowEmptyView.swift in Sources */,
+				AB9E7AA929D93CD900E9E205 /* QUHomeFollowListCell.swift in Sources */,
+				AB9E7AC729D93CD900E9E205 /* QUHomeCompanyDataManager.swift in Sources */,
+				AB9E7ACD29D93CD900E9E205 /* QUHomePreferredCompanyLogo.swift in Sources */,
+				AB9E7ACF29D93CD900E9E205 /* QUHomeDiscoverComponentProvider.swift in Sources */,
+				AB9E7AB529D93CD900E9E205 /* QUHomeHotDealCellModel.swift in Sources */,
+				AB9E7AC529D93CD900E9E205 /* QUHomeBannerModel.swift in Sources */,
+				AB9E7AB229D93CD900E9E205 /* QUHomeChoicenessChangeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB9E781229D93AA600E9E205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9E781329D93AA600E9E205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB9E781729D93AAB00E9E205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9E781829D93AAB00E9E205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB9E781B29D93AAB00E9E205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB9E781C29D93AAB00E9E205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB9E781E29D93AAB00E9E205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Temp_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "baidu.com.Temp-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB9E781F29D93AAB00E9E205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Temp_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "baidu.com.Temp-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9E780429D93AA600E9E205 /* Build configuration list for PBXProject "Temp_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9E781B29D93AAB00E9E205 /* Debug */,
+				AB9E781C29D93AAB00E9E205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9E781D29D93AAB00E9E205 /* Build configuration list for PBXNativeTarget "Temp_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9E781E29D93AAB00E9E205 /* Debug */,
+				AB9E781F29D93AAB00E9E205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB9E780129D93AA600E9E205 /* Project object */;
+}
